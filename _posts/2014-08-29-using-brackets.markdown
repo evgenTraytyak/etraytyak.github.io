@@ -4,6 +4,7 @@ title:  "Using Brackets Like a Web Pro"
 date:   2014-08-29 23:38:01
 categories: brackets
 published: true
+comments: true
 excerpt: 'Anyone who writes code needs a code editor that enhances the experience of developing software. Brackets is a code editor with some unique features that make it well suited to front-end development. Here’s an overview of one of my must-have favourite tools.'
 ---
 Anyone who writes code needs a code editor that enhances the experience of developing software. Brackets is a code editor with some unique features that make it well suited to front-end development. Here’s an overview of one of my must-have favourite tools.
