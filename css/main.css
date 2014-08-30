@@ -19,10 +19,15 @@ body {
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
-a         { color: #2a7ae2; text-decoration: none; }
-a:hover   { color: #000; }
-a:visited { color: #205caa; }
+a         { color: #0084ff; text-decoration: none; }
+a:hover   { color: #0084ff; }
+a:visited { color: #0084ff; }
 
+
+img {
+  max-width: 100%;
+  margin: 0 auto;
+}
 /* Utility */
 
 .wrap:before,
@@ -84,7 +89,7 @@ a:visited { color: #205caa; }
   padding: 2px;
   display: block;
   border-radius: 50%;
-  border: 1px solid #000;
+  border: 1px solid #333;
 }
 
 .site-headline {
@@ -224,16 +229,19 @@ a:visited { color: #205caa; }
 .posts li { margin-bottom: 30px; }
 
 .posts .post-link {
-  font-size: 24px;
+  font-size: 32px;
   letter-spacing: -1px;
   line-height: 1;
 }
 
 a.post-link {
-  display: block;
-  font-family: "Arvo";
+  margin-bottom: 10px;
+  display: inline-block;
+  line-height: ;
   color: #333;
-  transition: color 0.1s ease-out 0.1s;
+  font-family: "Arvo";
+  transition: color .2s ease-in 0s;
+  -webkit-transition: color .2s ease-in 0s;
   }
 a.post-link:hover {
   color: #0084ff;
@@ -244,6 +252,9 @@ a.post-link:hover {
   color: #818181;
 }
 
+.post-date {
+  margin-bottom: 2px;  
+}
 
 /* Post styles */
 /* ----------------------------------------------------------*/
@@ -251,11 +262,14 @@ a.post-link:hover {
 .post-header { margin: 10px 0 30px; }
 
 .post-header h1 {
-  font-size: 42px;
+  font-size: 48px;
   letter-spacing: -1.75px;
   line-height: 1;
   font-family: "Arvo";
-  font-weight: 400;
+}
+
+.post-header a {
+  color: #333;
 }
 
 .post-header .meta {
